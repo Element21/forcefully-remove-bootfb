@@ -1,5 +1,5 @@
 KDIR ?= /lib/modules/$(shell uname -r)/build
-BUILD_DIR ?= $(PWD)/build
+BUILD_DIR ?= $(PWD)
 BUILD_DIR_MAKEFILE ?= $(PWD)/build/Makefile
 
 default: $(BUILD_DIR_MAKEFILE)
